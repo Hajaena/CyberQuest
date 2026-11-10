@@ -1,0 +1,537 @@
+[
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Quel mot de passe est le plus sûr ?",
+    "choix": [
+      "Azerty123",
+      "Fatima2024",
+      "Tr0ub4dor&3-Cafe!",
+      "motdepasse"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Une phrase de passe longue mêlant majuscules, minuscules, chiffres et symboles résiste bien mieux aux attaques. Évite les mots courants et les dates.",
+    "evenement": "cadenas"
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Un collègue en retard te demande ton mot de passe « juste 5 minutes » pour finir un dossier. Que fais-tu ?",
+    "choix": [
+      "Je le lui donne, c'est un collègue",
+      "Je refuse et je lui conseille de demander un accès au service informatique",
+      "Je lui donne en changeant un caractère",
+      "Je l'écris sur un post-it pour lui"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Un mot de passe est strictement personnel. Aucun collègue, même pressé, n'a besoin du tien : l'accès doit passer par le service informatique."
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Tu pars prendre un café pour 10 minutes. Que fais-tu de ta session ?",
+    "choix": [
+      "Je la laisse ouverte, je reviens vite",
+      "Je la verrouille (Windows + L)",
+      "J'éteins seulement l'écran",
+      "Je baisse la luminosité"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Verrouiller sa session empêche quiconque d'utiliser ton poste en ton absence, même pour quelques minutes."
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Où ranger ses mots de passe de façon sécurisée ?",
+    "choix": [
+      "Dans un fichier mdp.txt sur le bureau",
+      "Sur un post-it collé sous le clavier",
+      "Dans un gestionnaire de mots de passe",
+      "Dans un e-mail envoyé à soi-même"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Un gestionnaire de mots de passe chiffre tes secrets et génère des mots de passe uniques. Fichiers texte, post-it et e-mails sont à éviter.",
+    "evenement": "cadenas"
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Quelle est la meilleure pratique pour les mots de passe de tes différents comptes ?",
+    "choix": [
+      "Le même partout, c'est plus simple",
+      "Un mot de passe unique et robuste par compte",
+      "Le même avec un chiffre différent à la fin",
+      "Mon prénom et ma date de naissance"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Si un compte est piraté, un mot de passe réutilisé ouvre toutes les autres portes. Un mot de passe unique limite les dégâts."
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Qu'est-ce que l'authentification multifacteur (MFA) ?",
+    "choix": [
+      "Un mot de passe très long",
+      "Une double vérification : mot de passe + code ou application",
+      "Un antivirus renforcé",
+      "Un mot de passe partagé par l'équipe"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La MFA ajoute une preuve en plus du mot de passe (code, application, clé). Même volé, ton mot de passe ne suffit plus pour entrer."
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Tu reçois par SMS un code de vérification que tu n'as pas demandé, puis un appel te le réclame. Que fais-tu ?",
+    "choix": [
+      "Je le donne, c'est sûrement le support",
+      "Je ne le donne à personne, je raccroche et je signale l'incident",
+      "Je le donne puis je change mon mot de passe",
+      "Je le poste sur le chat d'équipe pour avoir des conseils"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Un code non demandé signifie que quelqu'un tente d'accéder à ton compte. Ne le partage jamais, raccroche et signale l'incident.",
+    "evenement": "telephone"
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Ton adresse e-mail apparaît dans une fuite de données. Que fais-tu ?",
+    "choix": [
+      "Rien, ce n'est pas grave",
+      "Je change vite le mot de passe concerné (et ceux qui lui ressemblent) et j'active la MFA",
+      "J'attends de voir si quelqu'un l'utilise",
+      "Je supprime mon compte e-mail"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Après une fuite, les pirates testent tes identifiants partout. Change vite le mot de passe concerné et active la MFA."
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Tu utilises un ordinateur partagé en salle de réunion pour lire ta messagerie. À la fin :",
+    "choix": [
+      "Je ferme simplement l'onglet",
+      "Je me déconnecte et je ne mémorise aucun mot de passe",
+      "Je laisse la session ouverte pour le prochain",
+      "J'éteins seulement l'écran"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Sur un poste partagé, déconnecte-toi toujours et ne mémorise aucun mot de passe : une session ouverte appartient au prochain utilisateur."
+  },
+  {
+    "niveau": 1,
+    "theme": "Mots de passe & sessions",
+    "question": "Le « support technique » t'appelle et te demande ton mot de passe pour vérifier ton compte.",
+    "choix": [
+      "Je le donne, c'est le support",
+      "Je raccroche : un support légitime ne demande jamais le mot de passe",
+      "Je donne seulement la moitié du mot de passe",
+      "Je le donne par SMS, c'est plus sûr"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Aucun support légitime ne demande ton mot de passe. C'est de l'ingénierie sociale : raccroche et rappelle via le numéro officiel."
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Tu reçois : « Votre compte sera suspendu dans 24 h, cliquez ici », envoyé par support@n0vatech-secure.com. Que fais-tu ?",
+    "choix": [
+      "Je clique vite pour éviter la suspension",
+      "Je ne clique pas et je signale l'e-mail au service sécurité",
+      "Je le transfère à tous mes collègues",
+      "Je réponds pour demander des précisions"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Urgence, menace et domaine douteux (n0vatech avec un zéro) : trois signes de phishing. Ne clique pas, signale le message et supprime-le.",
+    "evenement": "email"
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Quel élément trahit le plus souvent un e-mail de phishing ?",
+    "choix": [
+      "Un message écrit en français",
+      "Un ton urgent, des fautes et une adresse d'expéditeur étrange",
+      "Une signature en bas du message",
+      "Une pièce jointe de petite taille"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les pirates jouent sur la peur et la pression. Urgence, fautes, adresse étrange ou demande inhabituelle doivent t'alerter."
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Avant de cliquer sur un lien dans un e-mail, que peux-tu faire ?",
+    "choix": [
+      "Cliquer : l'antivirus s'occupera de tout",
+      "Survoler le lien pour voir son adresse réelle",
+      "Vérifier que le texte du lien est joli",
+      "L'ouvrir en navigation privée, ça suffit"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Survoler un lien affiche sa vraie destination. Si elle ne correspond pas au texte ou au site attendu, ne clique pas."
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Un e-mail du « PDG » te demande en urgence un virement confidentiel de 15 000 euros. Que fais-tu ?",
+    "choix": [
+      "Je fais le virement, c'est le PDG",
+      "Je vérifie par un autre canal (appel, en personne) avant toute action",
+      "Je réponds au mail pour confirmer",
+      "Je demande à un collègue de le faire"
+    ],
+    "bonne_reponse": 1,
+    "explication": "C'est la fraude au président. Toute demande de virement urgente et confidentielle se vérifie par un autre canal avant d'agir.",
+    "evenement": "email"
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Tu reçois d'un inconnu une pièce jointe inattendue : Facture_impayee.zip. Que fais-tu ?",
+    "choix": [
+      "Je l'ouvre pour voir",
+      "Je ne l'ouvre pas et je signale l'e-mail à l'informatique",
+      "Je l'enregistre sur le serveur partagé",
+      "Je l'envoie à un collègue pour qu'il l'ouvre"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les archives et pièces jointes inattendues sont un vecteur classique de rançongiciels. Ne les ouvre pas et signale l'e-mail.",
+    "evenement": "email"
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Que signifie le cadenas (HTTPS) dans la barre d'adresse du navigateur ?",
+    "choix": [
+      "Le site est forcément honnête",
+      "La connexion est chiffrée, mais le site peut quand même être frauduleux",
+      "Le site a été vérifié par l'État",
+      "Le site ne contient aucun virus"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le cadenas prouve seulement que la connexion est chiffrée, pas que le site est honnête. Les sites frauduleux ont aussi du HTTPS."
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Tu as cliqué sur un lien suspect et saisi ton mot de passe. Que fais-tu ?",
+    "choix": [
+      "Je ne dis rien, ça va passer",
+      "Je préviens tout de suite l'informatique et je change mon mot de passe",
+      "J'éteins mon écran",
+      "J'attends lundi pour en parler"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Chaque minute compte : l'équipe informatique peut bloquer le compte et limiter les dégâts. Prévenir vite est le bon réflexe."
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Laquelle de ces adresses est la plus suspecte pour un e-mail de Microsoft ?",
+    "choix": [
+      "support@microsoft.com",
+      "no-reply@microsoft.com",
+      "support@micros0ft-verif.com",
+      "security@microsoft.com"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Le domaine micros0ft-verif.com imite la vraie marque (zéro à la place du o, mot ajouté). Vérifie toujours le domaine exact de l'expéditeur."
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Que désigne le « smishing » ?",
+    "choix": [
+      "Du phishing par SMS",
+      "Un antivirus pour mobile",
+      "Une sauvegarde dans le cloud",
+      "Un VPN gratuit"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le smishing est du phishing par SMS : faux colis, fausse banque... Ne clique pas sur les liens reçus par message inattendu.",
+    "evenement": "telephone"
+  },
+  {
+    "niveau": 2,
+    "theme": "E-mails suspects & phishing",
+    "question": "Tu es dans un train et tu dois consulter des données de l'entreprise. Le Wi-Fi public est gratuit.",
+    "choix": [
+      "Je me connecte, c'est gratuit",
+      "J'utilise le VPN de l'entreprise (ou le partage de connexion de mon téléphone)",
+      "Je désactive mon antivirus pour aller plus vite",
+      "Je note le mot de passe du Wi-Fi sur mon agenda partagé"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Un Wi-Fi public peut être espionné ou piégé. Un VPN chiffre ton trafic ; le partage de connexion du téléphone est aussi plus sûr."
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Tu trouves sur le parking une clé USB marquée « Salaires 2026 ». Que fais-tu ?",
+    "choix": [
+      "Je la branche pour retrouver son propriétaire",
+      "Je la remets à l'informatique sans la brancher",
+      "Je la branche sur un vieux PC",
+      "Je la garde pour moi"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Une clé USB inconnue peut contenir un malware qui s'exécute dès le branchement. Remets-la au service informatique sans la brancher.",
+    "evenement": "usb"
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Devant la salle serveur, un visiteur sans badge dit être le technicien de la climatisation. Que fais-tu ?",
+    "choix": [
+      "Je le laisse passer, il a l'air sûr de lui",
+      "Je l'accompagne à l'accueil pour vérification avant tout accès",
+      "Je lui prête mon badge",
+      "Je lui donne le code de la porte"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Un visiteur, même sûr de lui, doit être identifié et accompagné. Ne prête jamais ton badge ni les codes d'accès.",
+    "evenement": "visiteur"
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Que signifie la règle de sauvegarde « 3-2-1 » ?",
+    "choix": [
+      "3 mots de passe, 2 écrans, 1 clavier",
+      "3 copies des données, sur 2 supports différents, dont 1 hors site",
+      "3 sauvegardes par jour, 2 par semaine, 1 par mois",
+      "3 techniciens, 2 serveurs, 1 salle"
+    ],
+    "bonne_reponse": 1,
+    "explication": "3 copies, sur 2 supports différents, dont 1 hors site : tu survis ainsi à une panne, un incendie ou un rançongiciel.",
+    "evenement": "serveur"
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Quelqu'un te suit dans la porte sécurisée sans badger (tailgating). Que fais-tu ?",
+    "choix": [
+      "Je lui tiens la porte",
+      "Je lui demande de badger ou je l'oriente vers l'accueil",
+      "Je referme la porte sans rien dire",
+      "Je fais comme si je n'avais rien vu"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Laisser quelqu'un te suivre annule le contrôle d'accès. Redirige poliment la personne vers l'accueil ou demande-lui de badger.",
+    "evenement": "visiteur"
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Pourquoi faut-il tester régulièrement ses sauvegardes ?",
+    "choix": [
+      "Pour vérifier qu'elles sont restaurables le jour où l'on en a besoin",
+      "Pour user les disques plus vite",
+      "Ce n'est pas utile",
+      "Pour gagner de la place"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Une sauvegarde jamais testée est une sauvegarde incertaine. Teste la restauration régulièrement pour être sûr de récupérer tes données.",
+    "evenement": "serveur"
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Ton ordinateur portable professionnel est volé dans le train. Que fais-tu ?",
+    "choix": [
+      "J'attends quelques jours, il sera peut-être retrouvé",
+      "Je préviens immédiatement l'informatique pour verrouiller ou effacer le poste à distance",
+      "Je change juste mon fond d'écran",
+      "Je porte plainte, sans rien dire à l'entreprise"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Plus vite l'informatique est prévenue, plus vite le poste peut être verrouillé ou effacé à distance et les accès révoqués."
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Que fais-tu d'un document confidentiel dont tu n'as plus besoin ?",
+    "choix": [
+      "Je le jette à la poubelle classique",
+      "Je le détruis au broyeur ou dans un bac sécurisé",
+      "Je le froisse bien",
+      "Je le laisse sur l'imprimante"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les documents confidentiels doivent être détruits. La poubelle classique expose des informations à n'importe qui."
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Avant de quitter ton bureau le soir, que fais-tu (règle du « bureau propre ») ?",
+    "choix": [
+      "Je laisse documents et post-it avec mots de passe",
+      "Je range les documents sensibles et je verrouille ma session",
+      "Je laisse mon badge sur le bureau",
+      "Je laisse la porte ouverte"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Le bureau propre : aucun document sensible ni mot de passe visible, et session verrouillée avant de partir."
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Une mise à jour de sécurité est disponible pour les serveurs. Que fais-tu ?",
+    "choix": [
+      "Je la repousse indéfiniment",
+      "J'applique les correctifs régulièrement, après les avoir testés",
+      "Je désactive les mises à jour pour éviter les pannes",
+      "J'attends qu'un virus apparaisse"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les correctifs comblent des failles connues que les pirates exploitent. Applique-les régulièrement, idéalement après test.",
+    "evenement": "serveur"
+  },
+  {
+    "niveau": 3,
+    "theme": "Sécurité physique & sauvegardes",
+    "question": "Un prestataire veut brancher son ordinateur personnel au réseau interne « pour gagner du temps ».",
+    "choix": [
+      "J'accepte",
+      "Je refuse et je lui propose le réseau invité ou un poste fourni par l'entreprise",
+      "Je lui donne un accès administrateur",
+      "Je désactive le pare-feu pour lui"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Un appareil non maîtrisé peut introduire des virus ou espionner le réseau. Utilise le réseau invité ou un poste fourni par l'entreprise."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Un message s'affiche : « Vos fichiers sont chiffrés. Payez 5 bitcoins. » Quelle est ta première action ?",
+    "choix": [
+      "Je paie rapidement",
+      "Je débranche le poste du réseau et j'alerte immédiatement l'informatique",
+      "Je redémarre dix fois",
+      "Je supprime les fichiers chiffrés"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Isole la machine du réseau pour stopper la propagation, ne paie pas et alerte l'informatique. La restauration passera par les sauvegardes.",
+    "evenement": "serveur"
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Que signifie le principe du « moindre privilège » ?",
+    "choix": [
+      "Chacun n'a que les accès nécessaires à son travail",
+      "Tout le monde a les droits administrateur",
+      "Seuls les dirigeants ont des accès",
+      "Personne n'a aucun accès"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Le moindre privilège limite les dégâts si un compte est compromis : chacun n'a que les droits nécessaires à sa mission."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Le directeur te demande de désactiver la MFA sur son compte : « ça m'agace ». Que fais-tu ?",
+    "choix": [
+      "Je le fais, c'est le directeur",
+      "J'explique le risque et je propose une MFA plus pratique",
+      "Je la désactive pour tout le monde",
+      "Je ne réponds pas"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les dirigeants sont des cibles de choix. Mieux vaut proposer une MFA plus pratique (application, clé) que de désactiver la protection."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Un collègue envoie des données clients via un outil gratuit non validé par l'entreprise. Que fais-tu ?",
+    "choix": [
+      "Je ne dis rien",
+      "Je lui explique le risque et j'en informe l'informatique pour trouver une solution validée",
+      "J'utilise le même outil",
+      "Je lui demande d'effacer son historique"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les outils non validés (« shadow IT ») échappent aux contrôles de sécurité. Signale-les pour trouver une alternative approuvée."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Un collègue veut utiliser son smartphone personnel pour accéder aux données de l'entreprise (BYOD).",
+    "choix": [
+      "Aucun problème, tout le monde le fait",
+      "Oui, mais seulement s'il respecte la politique BYOD (verrouillage, chiffrement, mises à jour)",
+      "Je lui donne les mots de passe administrateur",
+      "Oui, mais sans mot de passe pour aller plus vite"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Un appareil personnel doit respecter la politique de l'entreprise : verrouillage, chiffrement, mises à jour et effacement à distance possible."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Quelles informations peut-on saisir dans une IA générative publique ?",
+    "choix": [
+      "Des données clients pour gagner du temps",
+      "Aucune donnée confidentielle ou personnelle",
+      "Les mots de passe de l'entreprise",
+      "Le code source confidentiel"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les IA publiques peuvent conserver ou réutiliser ce que tu écris. Ne saisis jamais de données confidentielles ou personnelles."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Tu reçois un appel avec la voix du directeur qui réclame un virement urgent. Que fais-tu ?",
+    "choix": [
+      "Je fais le virement",
+      "Je raccroche et je vérifie via un numéro connu et la procédure interne",
+      "Je lui demande son mot de passe",
+      "Je transfère l'appel à un collègue"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Les voix peuvent être clonées par IA (deepfake). Vérifie toute demande sensible via un canal connu et la procédure interne.",
+    "evenement": "telephone"
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Une fuite de données personnelles de clients est détectée. Que fais-tu ?",
+    "choix": [
+      "Je cache l'incident",
+      "Je préviens immédiatement le RSSI ou le DPO (déclaration à la CNIL sous 72 h si nécessaire)",
+      "J'attends la fin du mois",
+      "Je publie un message sur les réseaux sociaux"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Une violation de données personnelles doit être signalée vite : le DPO ou le RSSI évalue la situation et prévient la CNIL sous 72 h si nécessaire."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Que doit contenir un bon plan de réponse à incident ?",
+    "choix": [
+      "Qui prévenir, comment isoler, restaurer et communiquer",
+      "Seulement le numéro du patron",
+      "Rien : on improvise",
+      "Uniquement l'antivirus à utiliser"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Un bon plan définit qui prévenir, comment isoler, restaurer et communiquer. Il se prépare et se teste avant la crise."
+  },
+  {
+    "niveau": 4,
+    "theme": "Boss final",
+    "question": "Dernière épreuve ! Quel est le meilleur réflexe global face à Glitch ?",
+    "choix": [
+      "Faire confiance à tout le monde",
+      "Rester vigilant, vérifier, signaler : la sécurité est l'affaire de tous",
+      "Laisser l'informatique s'en occuper seule",
+      "Désactiver les protections gênantes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La sécurité repose sur chacun : vigilance, vérification et signalement rapide sont tes meilleurs réflexes face à Glitch."
+  }
+]

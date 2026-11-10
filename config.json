@@ -1,0 +1,11 @@
+{
+  "company_name": "NovaTech",
+  "question_time_seconds": 20,
+  "questions_per_level": 10,
+  "security_max": 100,
+  "security_penalty": 20,
+  "security_heal": 5,
+  "music_enabled": true,
+  "sfx_enabled": true,
+  "volume": 0.5
+}
